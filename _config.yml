@@ -32,7 +32,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air" # "default", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -45,7 +45,7 @@ url                      : "https://gpesleta.github.io"
 baseurl                  : "/portfolio"
 #repository               : gpesleta/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   :
-logo                     : "/assets/images/88x88.png"
+#logo                     : "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 175
