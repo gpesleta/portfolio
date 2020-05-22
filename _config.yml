@@ -115,29 +115,26 @@ analytics:
 author:
   name             : "George Allan Esleta"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "George is a data scientist with more than nine years of product development experience in various industries (Financial Technology, Digital Media, Marketing Technology, Telecommunications). A Scrum practitioner, he advocates for an agile product development approach to data science and analytics. 
-"
+  bio              : "Data scientist with 9+ of product development experience in various industries (Financial Technology, Digital Media, Marketing Technology, Telecommunications). 
+  A Scrum practitioner, he advocates for an agile product development approach to data science and analytics."
   location         : "Laguna, Philippines"
-  email            : "gpesleta@gmail.com"
+  #email            : "gpesleta@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:gpesleta@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    - #label: "Website"
+      #icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/gpesleta/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://twitter.com/George.Esleta"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/gpesleta"
 
 # Site Footer
 footer:
