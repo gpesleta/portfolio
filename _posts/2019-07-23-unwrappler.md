@@ -2,7 +2,7 @@
 layout: single
 header:
   teaser: /assets/images/rappler_wordcloud.png
-title: "unwRAPPLER: Identfying Underlying Themes in Rappler News Articles"
+title: "unwRAPPLER: Identifying Underlying Themes in Rappler News Articles"
 date:   2019-07-23 14:14:36 +0800
 categories: projects
 mathjax: "true"
