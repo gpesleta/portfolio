@@ -47,6 +47,7 @@ To uncover the underlying themes, a total of **11,079 news articles** published 
 Each step of the workflow will be discussed in the succeeding sections. 
 
 ![Figure 1]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_methodology.png)
+<a id="fig1"></a> 
 #### Figure 1. Workflow for clustering the Rappler articles 
 
 ### 1. Data Extraction
@@ -81,6 +82,7 @@ Data preprocessing was implemented on the acquired article text. The text prepro
 To see if some obvious themes or topics stand out in the article corpus, exploratory data analysis was performed on the data before clustering. [Figure 2](#fig2) shows the word cloud and word frequency graph for the Rappler news articles published from January 2018 to May 2019. Both show that **President Rodrigo Duterte is the most mentioned word in the dataset**, suggesting that Duterte is a prominent topic in Rappler's news articles from January 2018 to May 2019, and at least one article cluster should have Duterte as the recurring theme. Other notable words include government, Philippines, police, and justice. To verify these initial findings, feature extraction and cluster analysis were performed on the dataset.
 
 ![Figure 2]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_eda.png)
+<a id="fig2"></a> 
 #### Figure 2. Exploratory analysis of Rappler news articles published from January 2018 to May 2019 (a) word cloud of the Rappler news articles (b) word count of the 15 most occurring words in the Rappler article corpus. Both the word cloud and the word frequency graph show that Philippine President Rodrigo Duterte is the top topic during the period selected. 
 
 ### 5. Feature Extraction
@@ -118,6 +120,7 @@ The optimum value of cluster counts and the resulting article clusters will be d
 To determine the optimal number of clusters, k-means clustering was implemented for different values of the cluster count $k$ from k=2 to k=20. Shown in [Figure 3](#fig3) is the variation in the values of the different internal validation measures as the cluster count $k$ is increased. The silhouette coefficient is monotonically increasing as the number of clusters is increased, suggesting increasing separation of the clusters. However, to keep the clustering parsimonious, the SSE elbow method was used instead to determine the optimal value of $k$. From the graph below, the SSE graph has an elbow at around **k=10**, suggesting optimal clustering at that value.   
 
 ![Figure 3]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_validation.png)
+<a id="fig3"></a> 
 #### Figure 3 Plots of the various internal validation measures for $k=2$ to $k=20$. The SSE graph has an elbow at $k=10$, suggesting optimal clustering at that value. 
 
 ### 1. Article clusters ($k=10$)
@@ -137,11 +140,13 @@ Form these word clouds, the underlying theme of each article cluster was identif
 - **Cluster 10**: Health
 
 ![Figure 4]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_wordcloud.png)
+<a id="fig4"></a> 
 #### Figure 4 Word cloud for each article cluster ($k=10$). From these word clouds, the underlying theme for each article cluster were identified as follows: Cluster 1 (Legislative); Cluster 2 (Foreign Affairs); Cluster 3 (General News); Cluster 4 (Judiciary); Cluster 5 (Weather); Cluster 6 (President Rodrigo Duterte); Cluster 7 (2019 Philippine Midterm Elections); Cluster 8: (Police); Cluster 9 (Boracay Rehabilitation); Cluster 10 (Health)
 
 Shown in [Figure 5](#fig5) is the relative size of the clusters in terms of the number of articles. Excluding the General News cluster which accounts for more than 25% of the articles, **Duterte is the largest article cluster**, comprising more than 15% of the news articles. This validates the initial results of the exploratory data analysis. 
 
 ![Figure 5]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_themes_10.png) 
+<a id="fig5"></a> 
 #### Figure 5. Resulting article themes for $k=10$. The clusters are relatives balanced in terms of cluster size, except for one cluster (General News) which contains more than 25% of all articles. Excluding the General News cluster, the Duterte cluster accounts for the most number of articles. 
 
 ## INSIGHTS
@@ -151,6 +156,7 @@ The application of unsupervised clustering technique on a corpus of 11,079 news 
 The **dominant theme of Rappler news articles is Philippine President Rodrigo Duterte**, with nearly 16% of news articles in this cluster. As seen in [Figure 6](#fig6), subthemes in this cluster include the war on drugs, human rights, Senator Antonio Trillanes, and Duterte’s ongoing war versus Rappler. This can imply that Rappler is particular with the President’s undertakings and that while this may be reasonable, Rappler has to review its focus given their strife with the President.
 
 ![Figure 6]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_duterte.png) 
+<a id="fig6"></a> 
 #### Figure 6. Word cloud and top words for the Duterte article cluster. From the top words, it can be inferred that the subthemes of this cluster include human rights violations, the war on illegal drugs, and Senator Antonio Trillanes.
 
 ### B. Philippine Politics article cluster (Legislative and Judiciary)
@@ -159,20 +165,24 @@ The other major themes are related to the other branches of the Philippine gover
 Subthemes in the Judicial cluster ([Figure 7](#fig7)) are the impeachment of former Chief Justice Maria Lourdes Sereno and Leila de Lima. Impeachment of former Chief Justice Lourdes Sereno because of failure to disclose assets in her SALN, and misuse of public funds among other things. Drug charges filed by the DOJ against Senator Leila de Lima.
 
 ![Figure 7]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_judiciary.png)
+<a id="fig7"></a> 
 #### Figure 7. Word cloud and top words for the Judiciary article cluster. From the top words, it can be inferred that the subthemes of this cluster include the impeachment of former Chief Justice Lourdes Sereno and the drug cases against Senator Leila De Lima.
 
 Subthemes in the Legislative article cluster ([Figure 8](#fig8)) are budget Proposed changes in the constitution to shift to a federal type of government. Like the dominant clusters, this cluster focus on politics. It is apparent that Rappler is focused on the political landscape in the Philippines with a particular focus on hot and relevant issues.
 
 ![Figure 8]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_legislative.png)
+<a id="fig8"></a> 
 #### Figure 8. Wordcloud and top words for the Legislative article cluster. From the top words, it can be inferred that the subthemes of this cluster include the national budget and the proposed shift to a federal system.
 
 ### C. Police and Weather Clusters
 Two recurring themes regardless of the number of clusters selected are police reports ([Figure 9](#fig9)) and weather reports ([Figure 10](#fig10)). In line with the Duterte cluster,  it is sensible that the cluster about the police can be generated given the “oplan tokhang” implemented by the administration. Meanwhile, the weather cluster is sound considering the country’s geographic circumstances.   
 
 ![Figure 9]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_pnp.png)
+<a id="fig9"></a> 
 #### Figure 9. (a) Wordcloud and (b) Top words in the Police article cluster
 
 ![Figure 10]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_weather.png)
+<a id="fig10"></a> 
 #### Figure 10.  (a) Wordcloud and (b) Top words in the Weather article cluster
 
 ### D. Time-specific article clusters
@@ -181,15 +191,18 @@ The remaining themes are time-related and reflect major events during the timefr
 ![Figure 11a]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_current.png)
 ![Figure 11b]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_boracay.png)
 ![Figure 11c]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_health.png)
+<a id="fig11"></a> 
 #### Fig 11. Time-specific article clusters (a) 2019 Midterm Elections, (b) Boracay Rehabilitation, (c) Dengue vaccine (Dengvaxia) controversy
 
 ### E. Sensitivity Analysis
 While it was concluded that 10 is the optimal number of groupings for the subject dataset, sensitivity analysis has been performed to test the robustness of the results gathered. Shown below are the resulting article clusters for $k=6$ ([Figure 12](#fig12)) and $k=16$ ([Figure 13](#fig13)). It is noted that as the cluster count is increased, the most affected clusters are bigger ones, especially the _Duterte_ cluster. As such, it can be deduced that said cluster has many subclusters which are differentiated when cluster count is increased. Nevertheless, the core clusters (e.g., General News, Duterte, 2019 Election, Police) created regardless of the number of clusters are constant. 
 
 ![Figure 12]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_6.png)
+<a id="fig12"></a> 
 #### Figure 12. Clustering and Cluster size distribution for $k=6$
 
 ![Figure 13]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_16.png)
+<a id="fig13"></a> 
 #### Figure 13. Clustering and Cluster size distribution for $k=16$
 
 ## SUMMARY AND CONCLUSIONS
