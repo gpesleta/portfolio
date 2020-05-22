@@ -3,10 +3,11 @@ layout: single
 header:
   teaser: /assets/images/rappler_wordcloud.png
 title: "unwRAPPLER: Identifying Underlying Themes in Rappler News Articles"
-date:   2019-07-23 14:14:36 +0800
+date:   2019-07-23 16:50:00 +0800
 categories: projects
 mathjax: "true"
 excerpt: "This study aims to uncover the underlying themes of Rappler news articles via unsupervised clustering techniques and see if there is an inherent concentration of news in a specific theme."
+tags: [natural language processing, unsupervised learning, clustering, theme extraction, Rappler, data mining]
 ---
 
 ## AUTHORS
@@ -163,7 +164,7 @@ Features were extracted from the article corpus using a term frequency-inverse d
 </tr>
 <tr>
 <td><code>ngram_range</code></td>
-<td>The lower and upper boundary of the range of n-values for different n-grams to be extracted. All values of n such that $min_n &lt;= n &lt;= max_n$ will be used</td>
+<td>The lower and upper boundary of the range of n-values for different n-grams to be extracted. All values of n such that min_n <= n <= max_n will be used</td>
 <td>(1,3)</td>
 </tr>
 </tbody>
@@ -189,14 +190,14 @@ To extract the underlying themes of the Rappler news articles, unsupervised clus
 The optimum value of cluster counts and the resulting article clusters will be discussed in the next section.
 
 ## RESULTS
-To determine the optimal number of clusters, k-means clustering was implemented for different values of the cluster count $k$ from k=2 to k=20. Shown in [Figure 3](#fig3) is the variation in the values of the different internal validation measures as the cluster count $k$ is increased. The silhouette coefficient is monotonically increasing as the number of clusters is increased, suggesting increasing separation of the clusters. However, to keep the clustering parsimonious, the SSE elbow method was used instead to determine the optimal value of $k$. From the graph below, the SSE graph has an elbow at around **k=10**, suggesting optimal clustering at that value.   
+To determine the optimal number of clusters, k-means clustering was implemented for different values of the cluster count k from k=2 to k=20. Shown in [Figure 3](#fig3) is the variation in the values of the different internal validation measures as the cluster count k is increased. The silhouette coefficient is monotonically increasing as the number of clusters is increased, suggesting increasing separation of the clusters. However, to keep the clustering parsimonious, the SSE elbow method was used instead to determine the optimal value of k. From the graph below, the SSE graph has an elbow at around **k=10**, suggesting optimal clustering at that value.   
 
 ![Figure 3]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_validation.png)
 <a id="fig3"></a> 
-#### Figure 3 Plots of the various internal validation measures for $k=2$ to $k=20$. The SSE graph has an elbow at $k=10$, suggesting optimal clustering at that value. 
+#### Figure 3 Plots of the various internal validation measures for k=2 to k=20. The SSE graph has an elbow at k=10, suggesting optimal clustering at that value. 
 
-### 1. Article clusters ($k=10$)
-$k$-means clustering was performed on the Rappler articles using a cluster count of $k=10$. To infer the underlying theme of each article cluster, cluster word clouds were created as shown in [Figure 4](#fig4).
+### 1. Article clusters (k=10)
+k-means clustering was performed on the Rappler articles using a cluster count of k=10. To infer the underlying theme of each article cluster, cluster word clouds were created as shown in [Figure 4](#fig4).
 
 Form these word clouds, the underlying theme of each article cluster was identified as follows:
 
@@ -213,13 +214,13 @@ Form these word clouds, the underlying theme of each article cluster was identif
 
 ![Figure 4]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_wordcloud.png)
 <a id="fig4"></a> 
-#### Figure 4 Word cloud for each article cluster ($k=10$). From these word clouds, the underlying theme for each article cluster were identified as follows: Cluster 1 (Legislative); Cluster 2 (Foreign Affairs); Cluster 3 (General News); Cluster 4 (Judiciary); Cluster 5 (Weather); Cluster 6 (President Rodrigo Duterte); Cluster 7 (2019 Philippine Midterm Elections); Cluster 8: (Police); Cluster 9 (Boracay Rehabilitation); Cluster 10 (Health)
+#### Figure 4 Word cloud for each article cluster (k=10). From these word clouds, the underlying theme for each article cluster were identified as follows: Cluster 1 (Legislative); Cluster 2 (Foreign Affairs); Cluster 3 (General News); Cluster 4 (Judiciary); Cluster 5 (Weather); Cluster 6 (President Rodrigo Duterte); Cluster 7 (2019 Philippine Midterm Elections); Cluster 8: (Police); Cluster 9 (Boracay Rehabilitation); Cluster 10 (Health)
 
 Shown in [Figure 5](#fig5) is the relative size of the clusters in terms of the number of articles. Excluding the General News cluster which accounts for more than 25% of the articles, **Duterte is the largest article cluster**, comprising more than 15% of the news articles. This validates the initial results of the exploratory data analysis. 
 
 ![Figure 5]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_themes_10.png) 
 <a id="fig5"></a> 
-#### Figure 5. Resulting article themes for $k=10$. The clusters are relatives balanced in terms of cluster size, except for one cluster (General News) which contains more than 25% of all articles. Excluding the General News cluster, the Duterte cluster accounts for the most number of articles. 
+#### Figure 5. Resulting article themes for k=10. The clusters are relatives balanced in terms of cluster size, except for one cluster (General News) which contains more than 25% of all articles. Excluding the General News cluster, the Duterte cluster accounts for the most number of articles. 
 
 ## INSIGHTS
 The application of unsupervised clustering technique on a corpus of 11,079 news articles shows a consistency of topic clusters across different resolutions that include:
@@ -267,15 +268,15 @@ The remaining themes are time-related and reflect major events during the timefr
 #### Fig 11. Time-specific article clusters (a) 2019 Midterm Elections, (b) Boracay Rehabilitation, (c) Dengue vaccine (Dengvaxia) controversy
 
 ### E. Sensitivity Analysis
-While it was concluded that 10 is the optimal number of groupings for the subject dataset, sensitivity analysis has been performed to test the robustness of the results gathered. Shown below are the resulting article clusters for $k=6$ ([Figure 12](#fig12)) and $k=16$ ([Figure 13](#fig13)). It is noted that as the cluster count is increased, the most affected clusters are bigger ones, especially the _Duterte_ cluster. As such, it can be deduced that said cluster has many subclusters which are differentiated when cluster count is increased. Nevertheless, the core clusters (e.g., General News, Duterte, 2019 Election, Police) created regardless of the number of clusters are constant. 
+While it was concluded that 10 is the optimal number of groupings for the subject dataset, sensitivity analysis has been performed to test the robustness of the results gathered. Shown below are the resulting article clusters for k=6 ([Figure 12](#fig12)) and k=16 ([Figure 13](#fig13)). It is noted that as the cluster count is increased, the most affected clusters are bigger ones, especially the _Duterte_ cluster. As such, it can be deduced that said cluster has many subclusters which are differentiated when cluster count is increased. Nevertheless, the core clusters (e.g., General News, Duterte, 2019 Election, Police) created regardless of the number of clusters are constant. 
 
 ![Figure 12]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_6.png)
 <a id="fig12"></a> 
-#### Figure 12. Clustering and Cluster size distribution for $k=6$
+#### Figure 12. Clustering and Cluster size distribution for k=6
 
 ![Figure 13]({{ site.url }}{{ site.baseurl }}/assets/images/rappler_16.png)
 <a id="fig13"></a> 
-#### Figure 13. Clustering and Cluster size distribution for $k=16$
+#### Figure 13. Clustering and Cluster size distribution for k=16
 
 ## SUMMARY AND CONCLUSIONS
 Grouping of articles into clusters of related topics by unsupervised clustering method has  significant value to communication researchers and media practitioners in studying news output at scale and its repercussions. This study was able to _unwrap 10 major themes_ ranging from General News, Politics, Weather, Health and relevant events. As such, the result can be used as a starting point for a generalized theme extraction project from a national corpus to learn the general interest and sentiments of the people.
