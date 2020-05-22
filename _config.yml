@@ -115,9 +115,10 @@ analytics:
 author:
   name             : "George Allan Esleta"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "San Pedro, Laguna, Philippines"
-  email            :
+  bio              : "George is a data scientist with more than nine years of product development experience in various industries (Financial Technology, Digital Media, Marketing Technology, Telecommunications). A Scrum practitioner, he advocates for an agile product development approach to data science and analytics. 
+"
+  location         : "Laguna, Philippines"
+  email            : "gpesleta@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
