@@ -114,9 +114,9 @@ analytics:
 # Site Author
 author:
   name             : "George Allan Esleta"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/George.jpeg"
   bio              : "Data scientist with 9+ of product development experience in various industries (Financial Technology, Digital Media, Marketing Technology, Telecommunications). 
-  A Scrum practitioner, he advocates for an agile product development approach to data science and analytics."
+  Advocates for a product development approach to data science and analytics."
   location         : "Laguna, Philippines"
   #email            : "gpesleta@gmail.com"
   links:
@@ -139,24 +139,15 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/gpesleta/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://twitter.com/George.Esleta"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/gpesleta"
 
 
 # Reading Files
