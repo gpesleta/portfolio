@@ -13,3 +13,13 @@ main:
     url: /collection-archive/
   - title: "External Link"
     url: https://google.com
+
+docs:
+  - title: Curriculum Vitae
+  - url: /assets/docs/Esleta_GeorgeAllan_CV_20200518.pdf
+
+  - title: Publications
+  - url: /docs/publications/
+
+  - title: Data Science Projects
+  - url: /docs/projects/
