@@ -58,18 +58,68 @@ The extracted articles were stored in a local `sqlite` database. A total of 11,0
 
 <a id="table1"></a> 
 #### Table 1. Data dictionary
-| Data | Data type | Description |
-| ---- | --------- | ------ |
-| `article_id` | VARCHAR | Unique ID identifier |
-| `url` | VARCHAR | Relative URL |
-| `headline` | VARCHAR | Headline title |
-| `metadesc` | VARCHAR | Quick synopsis of the article |
-| `label` | VARCHAR | Absolute URL |
-| `author` | VARCHAR | Author name(s) |
-| `published_date` | VARCHAR | Published date |
-| `updated_date` | VARCHAR | Date updated |
-| `article` | VARCHAR | Article text |
-| `metakey` | VARCHAR | List of metatags associated with the article |
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Data type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>article_id</code></td>
+<td>VARCHAR</td>
+<td>Unique ID identifier</td>
+</tr>
+<tr>
+<td><code>url</code></td>
+<td>VARCHAR</td>
+<td>Relative URL</td>
+</tr>
+<tr>
+<td><code>headline</code></td>
+<td>VARCHAR</td>
+<td>Headline title</td>
+</tr>
+<tr>
+<td><code>metadesc</code></td>
+<td>VARCHAR</td>
+<td>Quick synopsis of the article</td>
+</tr>
+<tr>
+<td><code>label</code></td>
+<td>VARCHAR</td>
+<td>Absolute URL</td>
+</tr>
+<tr>
+<td><code>author</code></td>
+<td>VARCHAR</td>
+<td>Author name(s)</td>
+</tr>
+<tr>
+<td><code>published_date</code></td>
+<td>VARCHAR</td>
+<td>Published date</td>
+</tr>
+<tr>
+<td><code>updated_date</code></td>
+<td>VARCHAR</td>
+<td>Date updated</td>
+</tr>
+<tr>
+<td><code>article</code></td>
+<td>VARCHAR</td>
+<td>Article text</td>
+</tr>
+<tr>
+<td><code>metakey</code></td>
+<td>VARCHAR</td>
+<td>List of metatags associated with the article</td>
+</tr>
+</tbody>
+</table>
+
 
 ### 3. Data Preprocessing
 Data preprocessing was implemented on the acquired article text. The text preprocessing involves:
@@ -88,15 +138,37 @@ To see if some obvious themes or topics stand out in the article corpus, explora
 ### 5. Feature Extraction
 Features were extracted from the article corpus using a term frequency-inverse document frequency (TF-IDF) vectorizer was implemented, via scikit-learn’s `Tfidfvectorizer`. As opposed to an equal weighting vectorizer, the TF-IDF statistic measures how important a word is to the document and the corpus. 
 
-[Table 5](#table5) shows the additional parameters that were taken into consideration: 
+[Table 2](#table2) shows the additional parameters that were taken into consideration: 
 
-<a id="table5"></a>
-#### Table 5. Hyperparameters used in the TF-IDF vectorizer
-| Parameter | Description | Value |
-| --------- | ----------- | ----- |
-| `min_df`  | ignore terms that have a document frequency strictly lower than the given threshold            | 0.001 |
-| `max_df`  | ignore terms that have a document frequency strictly higher than the given threshold            | 0.7 |
-| `ngram_range`  | The lower and upper boundary of the range of n-values for different n-grams to be extracted. All values of n such that $min_n <= n <= max_n$ will be used            | (1,3) |
+<a id="table2"></a>
+#### Table 2. Hyperparameters used in the TF-IDF vectorizer
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>min_df</code></td>
+<td>ignore terms that have a document frequency strictly lower than the given threshold</td>
+<td>0.001</td>
+</tr>
+<tr>
+<td><code>max_df</code></td>
+<td>ignore terms that have a document frequency strictly higher than the given threshold</td>
+<td>0.7</td>
+</tr>
+<tr>
+<td><code>ngram_range</code></td>
+<td>The lower and upper boundary of the range of n-values for different n-grams to be extracted. All values of n such that $min_n &lt;= n &lt;= max_n$ will be used</td>
+<td>(1,3)</td>
+</tr>
+</tbody>
+</table>
+
 
 The `TFidfVectorizer` performs further cleaning of the data by removing both frequent words and rare words. *Stopwords*, or words that appear too frequently in the English and Filipino language (e.g., the, a, an, and, or), were dropped from the corpus. Rappler-specific stopwords, or words that appear in more than 70% of the titles, were also ignored by setting the `max_df` parameter of `TFidfVectorizer` to `max_df = 0.7`.
 
