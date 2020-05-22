@@ -43,7 +43,7 @@ name                     : "George Allan Esleta"
 description              : "An amazing website."
 url                      : "localhost:4000"
 baseurl                  : "/portfolio"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+#repository               : gpesleta/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/GEORGE4.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "George Allan Esleta"
   avatar           : "/assets/images/George.jpeg"
-  bio              : "Data scientist with 9+ of product development experience in various industries (Financial Technology, Digital Media, Marketing Technology, Telecommunications). 
+  bio              : "Data scientist with 9+ of product development experience in various industries (Financial Technology, Digital Media, Telecommunications). 
   Advocates for a product development approach to data science and analytics."
   location         : "Laguna, Philippines"
   #email            : "gpesleta@gmail.com"
@@ -123,9 +123,6 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:gpesleta@gmail.com"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:gesleta@aim.edu"
     - #label: "Website"
       #icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
