@@ -2,6 +2,6 @@
 title: "International Publications"
 author_profile: true
 layout: category
-permalink: /categories/#publications/
+permalink: /categories/publications/
 taxonomy: publications
 ---
