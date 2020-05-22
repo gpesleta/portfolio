@@ -1,7 +1,8 @@
 ---
 title: "International Publications"
 permalink: /publications/
-layout: pages
+type: pages
+layout: single
 author_profile: true
 ---
 * Esleta, G. A., & Monterola, C. (2009). Effect of memory and reinforcement on the propagation and morphology of fracture in a two-dimensional mass-spring system. International Journal of Modern Physics C, 20(07), 1049-1062.
