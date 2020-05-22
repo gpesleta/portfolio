@@ -3,7 +3,7 @@ layout: single
 header:
   teaser: /assets/images/rappler_wordcloud.png
 title: "unwRAPPLER: Identfying Underlying Themes in Rappler News Articles"
-date:   2008-05-01 14:14:36 +0800
+date:   2019-07-23 14:14:36 +0800
 categories: projects
 mathjax: "true"
 excerpt: "This study aims to uncover the underlying themes of Rappler news articles via unsupervised clustering techniques and see if there is an inherent concentration of news in a specific theme."
