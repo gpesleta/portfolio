@@ -313,3 +313,6 @@ defaults:
       layout: single
       author_profile: false
       share: true
+
+head_scripts:
+  - /assets/js/mathjax.js
