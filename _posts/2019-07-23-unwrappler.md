@@ -2,7 +2,7 @@
 layout: single
 header:
   teaser: /assets/images/rappler_wordcloud.png
-  image: /assets/images/rappler.png
+  image: /assets/images/rappler.PNG
   caption: "Photo credit: [**Th PH Chronicles**](http://www.thephchronicles.com/)"  
 title: "unwRAPPLER: Identifying Underlying Themes in Rappler News Articles"
 date:   2019-07-23 16:50:00 +0800
