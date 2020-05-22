@@ -3,7 +3,7 @@ main:
   - url: "/assets/docs/Esleta_GeorgeAllan_CV_20200518.pdf"
 
   - title: Publications
-  - url: /_pages/publicationss
+  - url: /_pages/publications
 
   - title: Data Science Projects
   - url: /docs/projects/
