@@ -1,0 +1,31 @@
+# /_data/authors.yml
+
+Carmelita Esclanda:
+  name        : "Carmelita Esclanda"
+  bio         : "Senior Economic Development Specialist at National Economic and Development Authority."
+  #avatar      : "/assets/images/bio-photo-2.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:cesclanda@aim.edu"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/carmelita-esclanda-566b2946/"
+
+Georgge Allan Esleta:
+  name             : "George Allan Esleta"
+  avatar           : "/assets/images/George.jpeg"
+  bio              : "Data scientist with 9+ years of product development experience in Financial Technology, Digital Media and Telecommunications. 
+  Advocates for a product development approach to data science and analytics."
+  location         : "Laguna, Philippines"
+  #email            : "gpesleta@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:gpesleta@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/gpesleta/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gpesleta"
