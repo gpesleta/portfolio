@@ -13,7 +13,7 @@ tags: [natural language processing, unsupervised learning, clustering, theme ext
 ---
 
 ## AUTHORS
-Carmelita Esclanda (cesclanda@aim.edu), [George Allan Esleta](https://gpsleta.github.io/) (gesleta@aim.edu), Elmer Robles (erobles@aim.edu), Sandro Luis Silva (ssilva@aim.edu)
+[Carmelita Esclanda](https://www.linkedin.com/in/carmelita-esclanda-566b2946/) (cesclanda@aim.edu), [George Allan Esleta](https://gpsleta.github.io/) (gesleta@aim.edu), Elmer Robles (erobles@aim.edu), Sandro Luis Silva (ssilva@aim.edu)
 
 ## EXECUTIVE SUMMARY
 Rappler, one of the leading online news publishers in the Philippines, seeks to inspire community engagement and create action for social change through citizen journalism. However, it has recently been under scrutiny by the Philippine government for “twisted” reporting. This study aims to uncover the underlying themes of Rappler news articles via unsupervised clustering techniques and see if there is an inherent concentration of news in a specific theme. A total of 11,079 articles were extracted from Rappler’s national news section published from January 2018 to May 2019. Features were extracted from the articles using a term frequency-inverse document frequency (TF-IDF) vectorizer and dimensions were reduced by implementing Latent Semantic Analysis (LSA). Lastly, unsupervised clustering via k-means algorithm was applied to group the articles and internal validation metrics were utilized to determine the optimal number of clusters. Ten clusters were uncovered, with Philippine President Rodrigo Duterte as the dominant cluster. The remaining themes touch on different branches of government, police and weather updates, and trending national issues. The insights gained from this research can aid Rappler in balancing its reporting by lessening bias towards specific topics.
@@ -56,7 +56,7 @@ Each step of the workflow will be discussed in the succeeding sections.
 #### Figure 1. Workflow for clustering the Rappler articles 
 
 ### 1. Data Extraction
-News articles published from January 2018 to May 2019 were extracted from the Rappler's Nation section (`https://www.rappler.com/nation`) via web scraping tools, specifically Python’s `requests` and `BeautifulSoup` modules. The process involved extracting the article text and selected metadata. Initial cleaning was also implemented to remove image captions, author and photographer details, location headers, hyperlinks, social media texts, and general sign-offs.
+News articles published from January 2018 to May 2019 were extracted from the [Rappler's Nation section](https://www.rappler.com/nation) via web scraping tools, specifically Python’s `requests` and `BeautifulSoup` modules. The process involved extracting the article text and selected metadata. Initial cleaning was also implemented to remove image captions, author and photographer details, location headers, hyperlinks, social media texts, and general sign-offs.
 
 ### 2. Data Storage
 The extracted articles were stored in a local `sqlite` database. A total of 11,079 news articles were stored in the database. [Table 1](#table1) shows the data description:
@@ -293,14 +293,14 @@ The following points can be considered in future research related to this work:
 - **Historical analysis can be explored to compare the Rappler data during previous administrations with the current to recognize the difference in Rappler’s focus per administration.** Administration changes can affect the political landscape and prioritization of complex issues. For instance, if an issue from one administration was solved in the next administration.
 
 ## REFERENCES
-[1] <a id='ref1'></a>"Duterte says he banned Rappler due to 'twisted' reporting", https://www.rappler.com/nation/197230-duterte-rappler-ban-twisted-reporting
+[1] <a id='ref1'></a>"Duterte says he banned Rappler due to 'twisted' reporting", [https://www.rappler.com/nation/197230-duterte-rappler-ban-twisted-reporting](https://www.rappler.com/nation/197230-duterte-rappler-ban-twisted-reporting)
 
-[2] <a id="ref2"></a>"Duterte calls Rappler 'fake news outlet", https://www.rappler.com/nation/193806-duterte-fake-news-outlet
+[2] <a id="ref2"></a>"Duterte calls Rappler 'fake news outlet", [https://www.rappler.com/nation/193806-duterte-fake-news-outlet](https://www.rappler.com/nation/193806-duterte-fake-news-outlet)
 
-[3] https://towardsdatascience.com/all-the-news-17fa34b52b9d
+[3] [https://towardsdatascience.com/all-the-news-17fa34b52b9d](https://towardsdatascience.com/all-the-news-17fa34b52b9d)
 
-[4] https://seangtkelley.me/blog/2018/01/03/news-article-clustering
+[4] [https://seangtkelley.me/blog/2018/01/03/news-article-clustering](https://seangtkelley.me/blog/2018/01/03/news-article-clustering)
 
-[4] https://scikit-learn.org/stable/auto_examples/text/plot_document_clustering.html#sphx-glr-auto-examples-text-plot-document-clustering-py
+[5] [https://scikit-learn.org/stable/auto_examples/text/plot_document_clustering.html#sphx-glr-auto-examples-text-plot-document-clustering-py](https://scikit-learn.org/stable/auto_examples/text/plot_document_clustering.html#sphx-glr-auto-examples-text-plot-document-clustering-py)
 
-[5] http://www.scholarpedia.org/article/Latent_semantic_analysis
+[6] [http://www.scholarpedia.org/article/Latent_semantic_analysis](http://www.scholarpedia.org/article/Latent_semantic_analysis)
