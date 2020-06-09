@@ -40,7 +40,7 @@ title                    : "George Allan Esleta"
 title_separator          : "-"
 subtitle                 : "Data Scientist | Product Developer"
 name                     : "George Allan Esleta"
-description              : "An amazing website."
+description              : "Data Scientist | Product Developer"
 url                      : "https://gpesleta.github.io"
 baseurl                  : "/portfolio"
 #repository               : gpesleta/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -318,3 +318,5 @@ defaults:
 
 head_scripts:
   - /assets/js/mathjax.js
+  - /assets/js/linkedin.js
+
