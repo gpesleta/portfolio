@@ -140,7 +140,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gpesleta"
     - label: "Sitemap"
-      url: "http://www.gpesleta.com/portfolio/sitemap.xml"
+      url: "http://www.gpesleta.com/portfolio/sitemap/"
 
 
 # Reading Files
