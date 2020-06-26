@@ -9,7 +9,7 @@ permalink: /about/
 ---
 **George** is a data scientist with more than nine years of product development experience in various industries (Financial Technology, Digital Media, Marketing Technology, Telecommunications). A Scrum practitioner, he advocates for an agile product development approach to data science and analytics.
 
-## <font color='#43a1e5'>EDUCATION</font>
+## <font color='#0092ca'>EDUCATION</font>
 
 #### Master of Science in Data Science
 *Asian Institute of Management*<br/>
@@ -29,7 +29,7 @@ April 2007
 - UP Oblation Scholar
 
 
-## WORK EXPERIENCE
+## <font color='#0092ca'>WORK EXPERIENCE</font>
 
 #### Voyager Innovations, Inc.
 - Senior Product Development Specialist (2017-2019)
@@ -43,7 +43,7 @@ April 2007
 - Instructor (2007-2009)
 
 
-## KEY SKILLS
+## <font color='#0092ca'>KEY SKILLS</font>
 - Product Development
 - Project Management (Scrum)
 - Data Strategy
