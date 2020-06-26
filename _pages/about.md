@@ -12,17 +12,17 @@ permalink: /about/
 ## EDUCATION
 
 #### MASTER OF SCIENCE IN DATA SCIENCE
-Asian Institute of Management\
-Date of Graduation: July 2020\
-Capstone Project: Development of an AI-Enabled Lead Scoring and Recommender System: Targeting New Prospects and Identifying Potential Services for Existing Clients\
+Asian Institute of Management<br\>
+Date of Graduation: July 2020<br\>
+Capstone Project: Development of an AI-Enabled Lead Scoring and Recommender System: Targeting New Prospects and Identifying Potential Services for Existing Clients
 
 #### MASTER OF SCIENCE IN PHYSICS
-University of the Philippines Diliman\
-April 2009\
+University of the Philippines Diliman<br\>
+April 2009
 
 #### BACHELOR OF SCIENCE IN APPLIED PHYSICS
-University of the Philippines Diliman\
-April 2007\
+University of the Philippines Diliman<br\>
+April 2007
 
 
 ## WORK EXPERIENCE
