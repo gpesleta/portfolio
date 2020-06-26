@@ -3,7 +3,7 @@ title: "About"
 header:
   teaser: /assets/images/GEORGE5.jpg 
   image: /assets/images/GEORGE1_banner.jpg
-author_profile: true
+author_profile: false
 layout: single
 permalink: /about/
 ---
