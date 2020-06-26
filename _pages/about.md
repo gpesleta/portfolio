@@ -11,30 +11,31 @@ permalink: /about/
 
 ## EDUCATION
 
-### MASTER OF SCIENCE IN DATA SCIENCE
-Asian Institute of Management
-Date of Graduation: July 2020
-Capstone Project: Development of an AI-Enabled Lead Scoring and Recommender System: Targeting New Prospects and Identifying Potential Services for Existing Clients
+#### MASTER OF SCIENCE IN DATA SCIENCE
+Asian Institute of Management\
+Date of Graduation: July 2020\
+Capstone Project: Development of an AI-Enabled Lead Scoring and Recommender System: Targeting New Prospects and Identifying Potential Services for Existing Clients\
 
-### MASTER OF SCIENCE IN PHYSICS
-University of the Philippines Diliman
-April 2009
+#### MASTER OF SCIENCE IN PHYSICS
+University of the Philippines Diliman\
+April 2009\
 
-### BACHELOR OF SCIENCE IN APPLIED PHYSICS
-University of the Philippines Diliman
-April 2007
+#### BACHELOR OF SCIENCE IN APPLIED PHYSICS
+University of the Philippines Diliman\
+April 2007\
+
 
 ## WORK EXPERIENCE
 
-### VOYAGER INNOVATIONS, INC.
+#### VOYAGER INNOVATIONS, INC.
 - Senior Product Development Specialist (2017-2019)
 - Senior Analytics Lead (2016-2017)
 
-### SMART COMMUNICATIONS, INC.
+#### SMART COMMUNICATIONS, INC.
 - Product Development Lead (2014-2016)
 - Senior Business Analyst (2010-2013)
 
-### UNIVERSITY OF THE PHILIPPINES DILIMAN
+#### UNIVERSITY OF THE PHILIPPINES DILIMAN
 - Instructor (2007-2009)
 
 
