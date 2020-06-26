@@ -12,17 +12,21 @@ permalink: /about/
 ## EDUCATION
 
 #### Master of Science in Data Science
-Asian Institute of Management<br/>
-Date of Graduation: July 2020<br/>
-Capstone Project: Development of an AI-Enabled Lead Scoring and Recommender System: Targeting New Prospects and Identifying Potential Services for Existing Clients
+*Asian Institute of Management*<br/>
+- Date of Graduation: July 2020<br/>
+- Capstone Project: Development of an AI-Enabled Lead Scoring and Recommender System: Targeting New Prospects and Identifying Potential Services for Existing Clients
 
 #### Master of Science in Physics
-University of the Philippines Diliman<br/>
+*University of the Philippines Diliman*<br/>
 April 2009
+- Most Outstanding M.S. Graduate of the U.P. College of Science 
 
 #### Bachelor of Science in Applied Physics
-University of the Philippines Diliman<br/>
+*University of the Philippines Diliman*<br/>
 April 2007
+- Magna Cum Laude (GWA 1.262/1.000)
+- Most Outstanding B.S. Applied Physics Graduate, U.P. Diliman 
+- UP Oblation Scholar
 
 
 ## WORK EXPERIENCE
@@ -37,6 +41,19 @@ April 2007
 
 #### University of the Philippines Diliman
 - Instructor (2007-2009)
+
+
+## KEY SKILLS
+- Product Development
+- Project Management (Scrum)
+- Data Strategy
+- Data Visualization
+- Data Mining
+- Natural Language Processing
+- Machine Learning
+- Deep Learning
+- Cloud Computing
+- Network Science
 
 
 
