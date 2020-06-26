@@ -6,9 +6,7 @@ header:
   caption: "Photo credit: [**Reporters Without Borders**](https://rsf.org/)"  
 title: "unwRAPPLER: Identifying Underlying Themes in Rappler News Articles"
 date:   2019-07-23 16:50:00 +0800
-categories: 
-  - projects
-  - dataviz
+categories: projects
 mathjax: "true"
 excerpt: "This study aims to uncover the underlying themes of Rappler news articles via unsupervised clustering techniques and see if there is an inherent concentration of news in a specific theme."
 tags: [natural language processing, unsupervised learning, clustering, theme extraction, Rappler, data mining]
