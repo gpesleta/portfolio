@@ -1,6 +1,6 @@
 main:
-  - title: "Curriculum Vitae"
-    url: /assets/docs/Esleta_GeorgeAllan_CV_20200518.pdf
+  - title: "About"
+    url: /about/
 
   - title: "Publications"
     url: /categories/publications/
