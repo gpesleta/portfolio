@@ -47,7 +47,7 @@ April 2007
 - Product Development
 - Project Management (Scrum)
 - Data Strategy
-- <a href='/categories/data-visualization/'>Data Visualization</a>
+- Data Visualization
 - Data Mining
 - Natural Language Processing
 - Machine Learning
