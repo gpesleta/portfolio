@@ -43,9 +43,10 @@ April 2007
 - Instructor (2007-2009)
 
 
-## <font color='#0092ca'>KEY SKILLS</font>
+## <font color='#0092ca'>SKILLS</font>
 - Product Development
-- Project Management (Scrum)
+- Project Management
+- Agile Methodologies (Scrum)
 - Data Strategy
 - Data Visualization
 - Data Mining
