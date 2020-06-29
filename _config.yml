@@ -40,7 +40,7 @@ title                    : "George Allan Esleta"
 title_separator          : "-"
 subtitle                 : "Data Scientist | Product Developer"
 name                     : "George Allan Esleta"
-description              : "Portfolio of George Allan Esleta, a data scientist with more than nine years of product development experience in various industries (Financial Technology, Digital Media, Marketing Technology, Telecommunications). A Scrum practitioner, he advocates for an agile product development approach to data science and analytics."
+description              : "Portfolio of George Allan Esleta, data scientist and product developer. George has more than nine years of product development experience in various industries (Financial Technology, Digital Media, Marketing Technology, Telecommunications). A Scrum practitioner, he advocates for an agile product development approach to data science and analytics."
 url                      : "http://www.gpesleta.com"
 baseurl                  : "/portfolio"
 #repository               : gpesleta/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -71,8 +71,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true #, false (default)
+search_full_content      : true #, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -83,7 +83,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "PGbeln47ZZZLuF7yPbvc8N4RtVA-LgP9Y7FW5uxYnxA"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -117,7 +117,7 @@ author:
   avatar           : "/assets/images/George.jpeg"
   bio              : "Data scientist with 9+ years of product development experience in Financial Technology, Digital Media and Telecommunications. 
   Advocates for a product development approach to data science and analytics."
-  location         : "Laguna, Philippines"
+  location         : "Philippines"
   #email            : "gpesleta@gmail.com"
   links:
     - label: "Email"

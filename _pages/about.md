@@ -14,7 +14,8 @@ permalink: /about/
 #### Master of Science in Data Science
 *Asian Institute of Management*<br/>
 - Date of Graduation: July 2020<br/>
-- Capstone Project: Development of an AI-Enabled Lead Scoring and Recommender System: Targeting New Prospects and Identifying Potential Services for Existing Clients
+- Capstone Project: A Proproetary AI-Enabled Lead Scoring and Recommender System
+- Dean's Lister (Term 1, Term 2, Term 3)
 
 #### Master of Science in Physics
 *University of the Philippines Diliman*<br/>
