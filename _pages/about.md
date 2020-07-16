@@ -18,12 +18,12 @@ permalink: /about/
 - Dean's Lister (Term 1, Term 2, Term 3)
 
 #### Master of Science in Physics
-*University of the Philippines Diliman*<br/>
+*[University of the Philippines Diliman](https://upd.edu.ph/)*<br/>
 April 2009
 - Most Outstanding M.S. Graduate of the U.P. College of Science 
 
 #### Bachelor of Science in Applied Physics
-*University of the Philippines Diliman*<br/>
+*[University of the Philippines Diliman](https://upd.edu.ph/)*<br/>
 April 2007
 - Magna Cum Laude (GWA 1.262/1.000)
 - Most Outstanding B.S. Applied Physics Graduate, U.P. Diliman 
@@ -32,15 +32,15 @@ April 2007
 
 ## <font color='#0092ca'>WORK EXPERIENCE</font>
 
-#### Voyager Innovations, Inc.
+#### [Voyager Innovations, Inc.](https://www.voyagerinnovation.com/)
 - Senior Product Development Specialist (2017-2019)
 - Senior Analytics Lead (2016-2017)
 
-#### Smart Communications, Inc.
+#### [Smart Communications, Inc.](https://smart.com.ph/corporate)
 - Product Development Lead (2014-2016)
 - Senior Business Analyst (2010-2013)
 
-#### University of the Philippines Diliman
+#### [University of the Philippines Diliman](https://upd.edu.ph/)
 - Instructor (2007-2009)
 
 
