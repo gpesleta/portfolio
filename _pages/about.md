@@ -11,9 +11,9 @@ permalink: /about/
 
 ## <font color='#0092ca'>EDUCATION</font>
 
-#### Master of Science in Data Science
+#### Master of Science in Data Science, with High Distinction 
 *[Asian Institute of Management](https://www.aim.edu/)*<br/>
-- Date of Graduation: July 2020<br/>
+July 2020
 - Capstone Project: A Proproetary AI-Enabled Lead Scoring and Recommender System
 - Dean's Lister (Term 1, Term 2, Term 3)
 
@@ -45,7 +45,7 @@ April 2007
 
 
 ## <font color='#0092ca'>SKILLS</font>
-- Product Development
+- Product Management
 - Project Management
 - Agile Methodologies (Scrum)
 - Data Strategy
