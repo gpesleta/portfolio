@@ -14,8 +14,8 @@ permalink: /about/
 #### Master of Science in Data Science, with High Distinction 
 *[Asian Institute of Management](https://www.aim.edu/)*<br/>
 July 2020
-- Capstone Project: A Proprietary AI-Enabled Lead Scoring and Recommender System
 - Dean's Lister (4 out of 4 Terms)
+- Capstone Project: A Proprietary AI-Enabled Lead Scoring and Recommender System
 
 #### Master of Science in Physics
 *[University of the Philippines Diliman](https://upd.edu.ph/)*<br/>
