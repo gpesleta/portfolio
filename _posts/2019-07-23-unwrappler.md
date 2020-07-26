@@ -1,7 +1,7 @@
 ---
 layout: single
 header:
-  teaser: /assets/images/rappler_wordcloud.png
+  teaser: /assets/images/wordcloud.png
   image: /assets/images/mariaressa20190206.jpg
   caption: "Photo credit: [**Reporters Without Borders**](https://rsf.org/)"  
 title: "unwRAPPLER: Identifying Underlying Themes in Rappler News Articles"
