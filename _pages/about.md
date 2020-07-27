@@ -11,34 +11,25 @@ permalink: /about/
 
 ## <font color='#0092ca'>EDUCATION</font>
 
-<table cellspacing="0" cellpadding="0">
-<tr>	
-<td>
+
 #### Master of Science in Data Science, with High Distinction 
 *[Asian Institute of Management](https://www.aim.edu/)*<br/>
 July 2020
 - Dean's Lister (4 out of 4 Terms)
 - Capstone Project: A Proprietary AI-Enabled Lead Scoring and Recommender System
-</td>
-</tr>
-<tr>
-<td>	
+
 #### Master of Science in Physics
 *[University of the Philippines Diliman](https://upd.edu.ph/)*<br/>
 April 2009
 - Most Outstanding M.S. Graduate of the U.P. College of Science 
-</td>
-<tr>
-<td>
+
 #### Bachelor of Science in Applied Physics
 *[University of the Philippines Diliman](https://upd.edu.ph/)*<br/>
 April 2007
 - Magna Cum Laude (GWA 1.262/1.000)
 - Most Outstanding B.S. Applied Physics Graduate, U.P. Diliman 
 - UP Oblation Scholar
-</td>
-</tr>
-</table>
+
 
 ## <font color='#0092ca'>WORK EXPERIENCE</font>
 
